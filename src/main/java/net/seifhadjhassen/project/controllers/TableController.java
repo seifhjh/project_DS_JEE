@@ -14,6 +14,7 @@ import java.util.NoSuchElementException;
 
 @RestController
 @RequestMapping("/api/tables")
+@CrossOrigin(origins = "http://localhost:4200")
 public class TableController {
 
     private TableService tableService;

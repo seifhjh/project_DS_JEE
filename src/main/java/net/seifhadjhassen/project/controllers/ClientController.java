@@ -18,6 +18,8 @@ import java.util.NoSuchElementException;
 
 @RestController
 @RequestMapping("/api/clients")
+@CrossOrigin(origins = "http://localhost:4200")
+
 public class ClientController {
 
     private ClientService clientService;
